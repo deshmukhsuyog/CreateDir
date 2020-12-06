@@ -1,0 +1,6 @@
+---
+tasks:
+        - name: create dir
+          file:
+                  path: /var/lib/awx/projects/{{ dir_name }}
+                  state: directory
