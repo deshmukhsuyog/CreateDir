@@ -2,5 +2,5 @@
 tasks:
         - name: create dir
           file:
-                  path: /var/lib/awx/projects/{{ dir_name }}
+                  path: /var/lib/awx/projects/toCheckProjUpdate
                   state: directory
