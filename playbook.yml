@@ -1,5 +1,7 @@
 ---
-tasks:
+- name: create dir
+  hosts: all
+  tasks:
         - name: create dir
           file:
                   path: /var/lib/awx/projects/toCheckProjUpdate
