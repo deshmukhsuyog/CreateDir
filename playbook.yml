@@ -4,5 +4,6 @@
   tasks:
         - name: create dir
           file:
-                  path: /var/lib/awx/projects/toCheckProjUpdate
+#                  path: /var/lib/awx/projects/toCheckProjUpdate
+                  path: ~/usingGIT  
                   state: directory
