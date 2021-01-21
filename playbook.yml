@@ -4,6 +4,9 @@
   tasks:
         - name: create dir
           file:
-#                  path: /var/lib/awx/projects/toCheckProjUpdate
-                  path: ~/usingGIT  
+                  path: /home/itadmin/{{item}} 
                   state: directory
+          with-items:
+           - Using loop1
+           - Using loop2
+           - Using loop1
