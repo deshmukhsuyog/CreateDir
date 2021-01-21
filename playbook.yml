@@ -5,9 +5,9 @@
   tasks:
         - name: create dir
           file:
-                  path: /etc/ansible/roles/{{item}} 
+                  path: /home/itadmin/usingGIT/{{item}} 
                   state: touch
           with-items:
            - Using loop1
            - Using loop2
-           - Using loop1
+           - Using loop3
