@@ -4,7 +4,7 @@
   tasks:
         - name: create dir
           file:
-                  path: /home/itadmin/{{item}} 
+                  path: /etc/ansible/roles/{{item}} 
                   state: directory
           with-items:
            - Using loop1
